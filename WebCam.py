@@ -1,8 +1,6 @@
 import cv2
 import pyzbar.pyzbar as pyzbar
 import PIL.Image
-from os.path import expanduser
-import os
 
 window_name = "main"
 cap = cv2.VideoCapture(0)

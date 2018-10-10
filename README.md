@@ -1,11 +1,24 @@
+## 依存ライブラリ
+
+* PIL
+* cv2
+* pyzbar
+
 ## ファイルの説明
 
-* QRdecode.py
-  * QRコードを読み取るスクリプトです
+* QRdecode.py(Deprecated)
+  * QRコードを画像ファイルから読み取るスクリプトです
+* WebCam.py
+  * QRコードをWebCameraで撮った映像から読み取るスクリプトです
 * QRresult
   * QRコードを読み取った結果がプレーンテキストで保存されるファイルです
 
 ## 使い方
+
+1. Webカメラをつないで'python WebCam.py'を実行
+2. WebカメラをQRコードにかざす
+
+## 使い方(Deprecated)
 
 1. WindowsのカメラアプリでQRコードを撮る
 2. python QRdecode.pyでスクリプトを実行
